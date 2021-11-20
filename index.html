@@ -10,22 +10,40 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gam&Play</title>
 </head>
 <body>
-    <h1 class="heading">
-        <img class="logo" src="assets/images/logo.png" alt="logo"> Gam&Play
-    </h1>
+    <!--- Header -->
+    <header>
+        <h1>
+            <img class="logo" src="assets/images/logo.png" alt="logo"> Rock Paper Scissors
+        </h1>
+    </header>
 
-    <div class="game-area">
-
+    <!---- Score Board -->
+    <div class="score-board">
+        <div id="user-label" class="badge">Player</div>
+        <div id="computer-label" class="badge">Computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
     </div>
 
-    <div class="score-area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+    <div class="result">
+        <p>Paper wins over Rock. Nice one!</p>
     </div>
 
+    <div class="choices">
+        <div id="rock" class="choice">
+            <img src="assets/images/rock.png" alt="rock">
+        </div>
+        <div id="paper" class="choice">
+            <img src="assets/images/paper.png" alt="paper">
+        </div>
+        <div id="scissor" class="choice">
+            <img src="assets/images/scissor.png" alt="scissors">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
