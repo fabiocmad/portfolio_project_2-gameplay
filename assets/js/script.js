@@ -16,18 +16,34 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
-function win() {
+function convertToWord(word) {
+    if (word === "rock") return "Rock";
+    if (word === "paper") return "Paper";
+    if (word === "scissor") return "Scissors";
+}
+
+function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} wins over ${convertToWord(computerChoice)}${smallCompWord}. You win!`;
 }
 
-function lose() {
-    console.log("lose");
+function lose(userChoice, computerChoice) {
+    computerScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lost!`;
 }
 
-function draw() {
-    console.log("draw");
+function draw(userChoice, computerChoice) {
+    const smallUserWord = "user".fontsize(3).sup();
+    const smallCompWord = "comp".fontsize(3).sup();
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals to ${convertToWord(computerChoice)}${smallCompWord}. It's a draw!`;
 }
 
 /* function that takes an user input and compares with computer result*/
