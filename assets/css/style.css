@@ -7,17 +7,51 @@
 body {
     background: black;
     color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 header {
     padding: 20px;
     border-bottom: 3px solid white;
+    background: lightyellow;
 }
 
 header > h1 {
-    color: white;
+    color: black;
+    font-size: 60px;
     text-align: center;
     font-family: Asap, sans-serif;
+    margin: 15px 10px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 6px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    color: black;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #f0a04b;
+}
+
+.active {
+  border-bottom: 2px solid rgb(206, 138, 11);
 }
 
 .score-board {
@@ -120,9 +154,9 @@ footer {
     background: lightyellow;
 }
 
-footer > span {
-    margin-left: 45%;
-    padding-top: 10px;
+footer > p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 
