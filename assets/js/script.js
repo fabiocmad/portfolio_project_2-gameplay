@@ -82,11 +82,9 @@ function main() {
     rock_div.addEventListener('click', function() {
         game("rock");
     })
-
     paper_div.addEventListener('click', function() {
         game("paper");
     })
-
     scissor_div.addEventListener('click', function() {
         game("scissor");
     })
