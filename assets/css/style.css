@@ -25,6 +25,11 @@ header > h1 {
     margin: 15px 10px;
 }
 
+.fa-toilet-paper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 6px;
@@ -159,8 +164,20 @@ footer > p {
     margin-top: 10px;
 }
 
-body > section {
+#main-image {
     height: 450px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/assets/images/background.jpeg');
+}
+
+#about {
+    float: right;
+}
+
+#how {
+    float: righ;
 }
 
 
