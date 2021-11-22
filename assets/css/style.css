@@ -159,6 +159,10 @@ footer > p {
     margin-top: 10px;
 }
 
+body > section {
+    height: 450px;
+}
+
 
 
 
