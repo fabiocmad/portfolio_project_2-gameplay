@@ -12,17 +12,17 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding-top: 15px;
     border-bottom: 3px solid white;
     background: lightyellow;
 }
 
 header > h1 {
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     font-family: Asap, sans-serif;
-    margin: 15px 10px;
+    margin: 10px 8px;
 }
 
 .fa-toilet-paper {
