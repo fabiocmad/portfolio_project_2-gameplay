@@ -74,6 +74,21 @@ Click on Social Media YouTube opens a new YouTube tab Page | Pass
 Click on Social Media Instagram opens a new Instagram tab Page | Pass
 
 ### Validator testing
+* HTML index - No errors were returned when passing throught the official [HTML Validator](https://validator.w3.org/nu).
+![Index](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/htmlCheckerIndex.png)
+
+* HTML feedback - No errors
+![Feedback](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/htmlCheckerFeedback.png)
+
+* HTML Game - No errors
+![Game](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/htmlCheckerGame.png)
+
+* CSS - No errors
+![Css](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/cssValidator.png)
+
+* Javascript - No errors
+![js](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/jsHint.png)
+
 ### Unfixed Bugs
 
 ## Deployment
