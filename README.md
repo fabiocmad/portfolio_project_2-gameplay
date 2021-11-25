@@ -1,4 +1,10 @@
 # Gam&Play
+Welcome! https://fabiocmad.github.io/portfolio_project_2-gameplay/
+
+# *HTML/CSS/Javascript website for gamers.*
+This website was designed for gamers enthusiasts. We have a main page explaining about the game history and hot to play it. A page for the rack, paper, scissors game itself, and a third page for users to submit a feedback form.
+
+**A live version on the website can be found** [here](https://fabiocmad.github.io/portfolio_project_2-gameplay/)
 
 ## Wireframe
 
