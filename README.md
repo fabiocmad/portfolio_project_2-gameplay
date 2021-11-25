@@ -21,15 +21,32 @@ Initial idea was to create a list of option of games for the user to choose from
 ![Wireframe](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/7ec1654e184deb5df3fb3b5f20888879056a7ee2/assets/images/testing/Screenshot%202021-11-18%20at%2017.17.16.png)
 ![Wireframe](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/7ec1654e184deb5df3fb3b5f20888879056a7ee2/assets/images/testing/Screenshot%202021-11-18%20at%2017.17.25.png)
 
-
 # Color Palette
+Initially had chosen black, white and orange, and decided to change orange to lightSalmon along the way as its a soft color with less contrast and better visibility comparing to the others.
+![Palette](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/Screenshot%202021-11-25%20at%2023.29.53.png)
 
 ## Features
 ### Existing Features
-#### Logo and Heading
+Main page and logo/heading. Header consistir of links to homepage (main), the game, and the feedback form on the nav bar. There's an image on the left hant side, and two sections on "About the game" and "How to play". Social media icons on the bottom link user to the respective websites and open on a new page.
+![Main](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/main.png)
+
 #### About the game
+Use will choose on each roung the choice of play, it can be selected by clicking on the rock, paper or scissors icons. The Javascript behind the website will randomly select an option to play as the computer against the user. Scores are updated acccordingly to who wins, and the who reaches five points first is the winner.
+
 #### Selecting your move
-#### Scores
+For draws, a gray shadow behind the button selected will appear, and the score wont change.
+
+![Draw](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/grayChoice.png)
+
+For user wins, a green shadow appears and user score increases by one point.
+
+![Win](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/greenChoice.png)
+
+For computer wins, a green shadow appears and computer score increases by one point.
+
+![Lose](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/redChoice.png)
+
+At the end of 5 rounds a message is prompted to the user telling the user has ended and have the choice to continue playing if wishes to do so. If continues, the score is reseted to zero and the user can start a new game.
 
 ## Testing
 ### Validator testing
