@@ -227,7 +227,7 @@ footer > p {
 #how {
     padding-left: 15px;
     padding-top: 5%;
-    float: righ;
+    float: right;
     max-width: 300px;
     font-size: large;
     text-shadow:5px 5px 10px lightsalmon;
@@ -251,7 +251,6 @@ footer > p {
 
     #menu {
         margin-left: 0px;
-        float: center;
         margin-right: 20px;
         margin-bottom: 40px;
         line-height: 10px;

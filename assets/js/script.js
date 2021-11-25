@@ -1,4 +1,4 @@
-/* Creating my variables to store DOM elements to use further on the code */
+/* Creating my variables to store DOM elements to use further on the code, criteria and style for variables taken from material mentioned on resources from readme file */
 let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("user-score");
