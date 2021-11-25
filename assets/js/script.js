@@ -31,7 +31,14 @@ function win(userChoice, computerChoice) {
     computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} wins over ${convertToWord(computerChoice)}${smallCompWord}.<br> You win!`;
     userChoice_div.classList.add('green-glow');
-    setTimeout(function() { userChoice_div.classList.remove('green-glow')}, 800);
+    setTimeout(function() { userChoice_div.classList.remove('green-glow');}, 800);
+    
+    if (userScore == 5) {
+        prompt("You scored 5 points. You won! Make sure to check out our Feedback Page or just continue playing!");
+        computerScore = 0;
+        userScore = 0;
+    }     
+    
 }
 
 function lose(userChoice, computerChoice) {
@@ -43,7 +50,13 @@ function lose(userChoice, computerChoice) {
     computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}.<br> You lost!`;
     userChoice_div.classList.add('red-glow');
-    setTimeout(function() { userChoice_div.classList.remove('red-glow')}, 800);
+    setTimeout(function() { userChoice_div.classList.remove('red-glow');}, 800);
+    // Create a function that trigger when computer score hits a certain score
+    if (computerScore == 5) {
+        prompt("Computer scores 5 points. You lost! Make sure to check out our Feedback Page or just continue playing!");
+        computerScore = 0;
+        userScore = 0;
+    }  
 }
 
 function draw(userChoice, computerChoice) {
@@ -52,7 +65,7 @@ function draw(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals to ${convertToWord(computerChoice)}${smallCompWord}.<br> It's a draw!`;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(function() { userChoice_div.classList.remove('gray-glow')}, 800);
+    setTimeout(function() { userChoice_div.classList.remove('gray-glow');}, 800);
 }
 
 /* function that takes an user input and compares with computer result*/
@@ -81,13 +94,13 @@ function game(userChoice) {
 function main() {
     rock_div.addEventListener('click', function() {
         game("rock");
-    })
+    });
     paper_div.addEventListener('click', function() {
         game("paper");
-    })
+    });
     scissor_div.addEventListener('click', function() {
         game("scissor");
-    })
+    });
 }
 
 main();

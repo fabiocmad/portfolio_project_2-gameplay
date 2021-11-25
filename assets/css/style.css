@@ -126,7 +126,6 @@ header > h1 {
 
 .choice:hover {
     cursor: pointer;
-    /* filter: invert(); */
 }
 
 #action-message {
@@ -265,6 +264,10 @@ section > div {
 
 }
 
+.feedback-form {
+    color: black;
+    background-color: white;
+}
 
 
 
