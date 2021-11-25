@@ -18,6 +18,14 @@ header {
     text-shadow:5px 5px 10px lightsalmon;
 }
 
+#about > h2 {
+    margin-bottom: 10px;
+}
+
+#how > h2 {
+    margin-bottom: 10px;
+}
+
 header > h1 {
     color: black;
     font-size: 50px;
@@ -194,11 +202,6 @@ footer > p {
     display: flex;
 }
 
-section > div {
-    color: white;
-    height: 500px;
-}
-
 #about {
     padding-top: 5%;
     float: right;
@@ -221,13 +224,16 @@ section > div {
 /* for small mobile screen sizes */
 @media screen and (max-width: 700px) {
     body > div {
-        text-align: justify;
         margin-top: 15px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5px;
-        font-size: 7px;
+        font-size: 4px;
         display: inline;
+    }
+
+    #main {
+        position: relative;
     }
 
     #menu {
@@ -265,8 +271,50 @@ section > div {
 }
 
 .feedback-form {
-    color: black;
-    background-color: white;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 5px white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid lightsalmon;
+    background-position: center;
+    height: 360px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 5%;
+    color: #fff;
+    padding: 60px;
+    top: 0;
+    position: relative;
+    border-radius: 25px;
+    
+}
+
+.comments {
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    background: white;
+}
+
+div > textarea {
+    display: inherit;
+}
+
+.feedback-form > div > #fname, #lname, #email { 
+    width: 100%;
+    display: flex;
+    height: 25px;
+}
+
+.feedback-form > input {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+div > .feedback-form {
+    margin-left: 35%;
 }
 
 
