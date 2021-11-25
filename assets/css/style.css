@@ -11,6 +11,7 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+/* Header styling */
 header {
     padding-top: 15px;
     border-bottom: 3px solid white;
@@ -38,6 +39,8 @@ header > h1 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Menu Styling */
 
 #menu {
     font-size: 110%;
@@ -69,6 +72,8 @@ header > h1 {
   border-bottom: 2px solid rgb(206, 138, 11);
 }
 
+/* Scoreboard styling */
+
 .score-board {
     margin: 20px auto;
     border: 3px solid white;
@@ -89,12 +94,14 @@ header > h1 {
     font-family: Asap, sans-serif;
 }
 
+/* User label score */
 #user-label {
     position: absolute;
     top: 30px;
     left: -25px;
 }
 
+/* Computer label score */
 #computer-label {
     position: absolute;
     top: 30px;
@@ -124,6 +131,7 @@ header > h1 {
     max-height: 100px;
 }
 
+/* Choice section while user is on the game */
 .choice {
     border: 4px solid white;
     margin: 0 20px;
@@ -136,6 +144,7 @@ header > h1 {
     cursor: pointer;
 }
 
+/* Action message on the result of the game */
 #action-message {
     text-align: center;
     font-family: Asap, sans-serif;
@@ -145,6 +154,7 @@ header > h1 {
     margin-bottom: 60px;
 }
     
+/* Effects when user win, lose, or draw during the game */
 .green-glow {
     border: 4px solid green;
     box-shadow: 0 0 150px #31b43a;
@@ -160,6 +170,7 @@ header > h1 {
     box-shadow: 0 0 150px lightgray;
 }
 
+/* Footer section*/
 footer {
     position: fixed;
     bottom: 0;
@@ -202,6 +213,7 @@ footer > p {
     display: flex;
 }
 
+/* About section on main page */
 #about {
     padding-top: 5%;
     float: right;
@@ -211,6 +223,7 @@ footer > p {
     letter-spacing: 1px;
 }
 
+/* How section on main page */
 #how {
     padding-left: 15px;
     padding-top: 5%;
@@ -270,6 +283,7 @@ footer > p {
 
 }
 
+/* Form styling */
 .feedback-form {
     margin-left: 40%;
     margin-top: 10%;
