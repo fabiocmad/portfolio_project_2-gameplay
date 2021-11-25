@@ -49,6 +49,30 @@ For computer wins, a green shadow appears and computer score increases by one po
 At the end of 5 rounds a message is prompted to the user telling the user has ended and have the choice to continue playing if wishes to do so. If continues, the score is reseted to zero and the user can start a new game.
 
 ## Testing
+A series of testings were done to ensure that the user experience will be up to standards and provide a overall great experience, with no broken links nor bugs (bugs were found and will be shows at next topic). The tests and results were the following:
+
+
+Testing - Responsiveness | Result
+------------ | -------------
+Click on header logo brings refreshes pages for main image | Pass
+Game Page adapts and change number of score to phone size  | Pass
+Headers and Paragraphs adapts and respond according to screen size  | Pass
+Feedback form test are sent to "https://formdump.codeinstitute.net/" | Pass
+
+Testing - Game | Result
+------------ | -------------
+Whoever reachs 5 points the relevant message is prompted | Pass
+Score increases depedning on who got the point  | Pass
+score resets after reaching 5 points | Pass
+Computer choise ramdmly generated for a fair result  | Pass
+
+Testing - Footer | Result
+------------ | -------------
+Click on Social Media Facebook opens a new Facebook tab Page | Pass
+Click on Social Media Twitter opens a new Twitter tab Page | Pass
+Click on Social Media YouTube opens a new YouTube tab Page | Pass
+Click on Social Media Instagram opens a new Instagram tab Page | Pass
+
 ### Validator testing
 ### Unfixed Bugs
 
