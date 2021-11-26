@@ -30,6 +30,10 @@ Initially had chosen black, white and orange, and decided to change orange to li
 Main page and logo/heading. Header consistir of links to homepage (main), the game, and the feedback form on the nav bar. There's an image on the left hant side, and two sections on "About the game" and "How to play". Social media icons on the bottom link user to the respective websites and open on a new page.
 ![Main](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/main.png)
 
+Feedback Form Page
+
+![Feedback](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/b67661d901d3a0f205eaa44613559027b942c5d8/assets/images/testing/feedback.png)
+
 #### About the game
 Use will choose on each roung the choice of play, it can be selected by clicking on the rock, paper or scissors icons. The Javascript behind the website will randomly select an option to play as the computer against the user. Scores are updated acccordingly to who wins, and the who reaches five points first is the winner.
 
@@ -42,7 +46,7 @@ For user wins, a green shadow appears and user score increases by one point.
 
 ![Win](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/greenChoice.png)
 
-For computer wins, a green shadow appears and computer score increases by one point.
+For computer wins, a red shadow appears and computer score increases by one point.
 
 ![Lose](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ad780cada9534d1b70c8f8abd1b43c8100ef0dcd/assets/images/testing/redChoice.png)
 
