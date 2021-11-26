@@ -90,11 +90,36 @@ Click on Social Media Instagram opens a new Instagram tab Page | Pass
 ![js](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/ce9ce9906b094c7b2c315e15ef2403596de2cb4e/assets/images/testing/jsHint.png)
 
 ### Unfixed Bugs
+On mobile I see that the responsiviness of two divs on the main page are blocking the end of the content within the paragraph from being read, On next steps of the project I would continue working to fix that type of error.
+![error](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/d5ec5a87c8b19bf0d29ffbd952fdbb0ec70ec339/assets/images/testing/bugMobile.png)
 
 ## Deployment
+Please see below the process of deployment for this website
+
+- The site was deployed to GitHub pages
+   - In the GitHub repository, navigated to the Settings tab
+   - From the source section drop-down menu, selected the Master Branch
+   - Once the master branch has been selected, the link for the page and a green sign that the site was deployed was shown (https://fabiocmad.github.io/portfolio_project_2-gameplay/)
+
+
 
 ## Acessibility
+![Acessibility](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/e9ede968723872b07f46fe8143740ff7bcd2bd60/assets/images/testing/acessibility.png)
 
 ## Credits
-### Content
-### Media
+* https://learn.codeinstitute.net/dashboard - "Writing your readme.md file" / "Positioning and Hero Image lesson" / "Best Practices" / "UX Strategy Plane" / "Love Running Project" - Meet Up Times lesson to understand positioning of image on my project.
+* https://fonts.google.com/ - Google Fonts
+* https://fontawesome.com/ - Font Awesome
+* https://github.com/ - GitHub
+* https://developer.chrome.com/docs/devtools/ - Chrome Tools
+* https://learn.shayhowe.com/html-css/writing-your-best-code/ - Code practices
+* https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f - Best practices
+* https://google.github.io/styleguide/htmlcssguide.html#General - Style rule guides
+* https://guides.github.com/features/mastering-markdown/ - Mastering markdown language
+* https://www.pinclipart.com/pindetail/iRbhhmx_thanks-again-i-tried-your-suggestion-of-increasing/ - Logo Image
+* https://www.youtube.com/watch?v=jaVNP3nIAv0 - Game Tutorial
+* https://www.gettyimages.ie/detail/video/paper-rock-scissors-game-on-black-background-stock-footage/1179347461 - Background Image
+* https://codebeautify.org/htmlviewer - Code review
+* http://ami.responsivedesign.is/# - Am I responsive
+
+
