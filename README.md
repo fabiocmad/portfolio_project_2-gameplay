@@ -96,6 +96,7 @@ Click on Social Media Instagram opens a new Instagram tab Page | Pass
 ### Unfixed Bugs
 On mobile I see that the responsiviness of two divs on the main page are blocking the end of the content within the paragraph from being read, On next steps of the project I would continue working to fix that type of error.
 ![error](https://github.com/fabiocmad/portfolio_project_2-gameplay/blob/d5ec5a87c8b19bf0d29ffbd952fdbb0ec70ec339/assets/images/testing/bugMobile.png)
+Second error is that I see the image on the main page is not showing up on the live link, on next steps I would try to find out why this is happening.
 
 ## Deployment
 Please see below the process of deployment for this website
